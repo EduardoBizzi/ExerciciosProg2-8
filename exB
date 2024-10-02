@@ -1,0 +1,19 @@
+B. Qual o valor de y após a execução do programa? 
+
+int main(){
+ int y, *p, x;
+ y = 0;
+ p = &y;
+ x = *p;
+ printf ("x = %d\n", x);
+ x = 4;
+ (*p)++;
+ printf ("p = %d\n", *p);
+ x--;
+ printf ("x = %d\n", x);
+ (*p) += x;
+ printf ("y = %d\n", y);
+ return(0);
+}
+
+R: A variável y será igual a 4.

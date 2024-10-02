@@ -1,0 +1,10 @@
+A. Ao se utilizar um vetor como parâmetro para uma função, qual informação está
+sendo passada à função? Assinale a opção correta e explique.
+(a). Uma cópia de todos elementos do vetor
+(b). Uma cópia do primeiro elemento do vetor
+(c). O endereço do primeiro elemento do vetor
+(d). O endereço de todos os elementos do vetor
+(e). Nenhuma das opções anteriores
+
+R: Altervativa C, porque quando se passa um vetor por parâmetro ele automaticamente vai para a primeira psoição 
+desse mesmo vetor.
